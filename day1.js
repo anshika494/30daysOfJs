@@ -45,3 +45,59 @@ console.log("New value:", count);
 const age = 30;
 age = 35; // Will cause an error
 console.log(age);
+
+// Feature Request:
+
+// 1. Variable Types Console Log: Write a script that declares variables of different data types and logs both the value and type of each variable to the console.
+
+// Number
+const numType = 42;
+console.log("Number:", num, typeof num);
+
+// String
+const stringType = "This is a string.";
+console.log("String:", message, typeof message);
+
+// Boolean
+const boolType = true;
+console.log("Boolean:", isTrue, typeof isTrue);
+
+// Object
+const objectType = {
+  name: "Alice",
+  age: 30,
+  city: "New York"
+};
+console.log("Object:", person, typeof person);
+
+// Array
+const arrayType = [1, 2, 3, 4, 5];
+console.log("Array:", numbers, typeof numbers);
+
+// Undefined
+let undefinedVar;
+console.log("Undefined:", undefinedVar, typeof undefinedVar);
+
+// Null
+const nullVar = null;
+console.log("Null:", nullVar, typeof nullVar);
+
+// 2. Reassignment Demo: Create a script that demonstrates the difference in behavior between `let` and `const` when it comes to reassignment.
+
+// Using let
+
+let nameVar = "OCD";
+console.log("Initial value (let):", nameVar);
+
+nameVar = "Bob";
+console.log("Reassigned value (let):", nameVar);
+
+// Using const (attempt to reassign)
+
+const num = 30;
+console.log("Initial value (const):", num);
+
+// This line will cause an error
+// num = 35;
+
+console.log("New value (const):", age); // This line might not be reached
