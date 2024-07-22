@@ -133,7 +133,6 @@ let result = number > 0 ? 'Positive' : 'Negative';
 
 console.log(result); // Output: Negative
 
-
 //Feature Request
 
 //1.Arithmetic Operations Script:
