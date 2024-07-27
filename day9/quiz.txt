@@ -1,0 +1,22 @@
+MCQS : 
+
+1. 18
+2. a) true false
+3. b) 9
+4. a) 0 1 2
+5. a) 5
+6. c) 15
+7. ******
+8. a) 14
+9. a) 1
+10. b) undefined
+11. a) 1 2
+12. a) 10
+13. c) 11
+14. d) ReferenceError
+15. d) Both b and c
+16. b) false false
+17. a) undefined, 2
+18. b) 456
+19. a) [ 1, 2, 3 ]
+20. b) newValue
